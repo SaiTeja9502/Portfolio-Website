@@ -71,7 +71,8 @@
     margin-bottom: 0;
   }
   article {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
+    width: 7rem;
   }
   footer nav {
     height: fit-content;
