@@ -70,6 +70,9 @@
     height: 83vh;
     margin-bottom: 0;
   }
+  .article-container{
+    gap: 1.5rem;
+  }
   article {
     font-size: 0.8rem;
     width: 7rem;

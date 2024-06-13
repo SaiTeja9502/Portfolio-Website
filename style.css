@@ -377,7 +377,7 @@ section {
   text-align: justify;
 }
 
-.article-container {
+.article-container { 
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
