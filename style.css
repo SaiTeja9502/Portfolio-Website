@@ -177,6 +177,7 @@ section {
 }
 .section__pic-container img{
   border-radius: 50%;
+  background-color: darkgrey;
 }
 
 
@@ -273,8 +274,8 @@ section {
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .about-details-container {
@@ -382,16 +383,16 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 1rem;
   justify-content: space-around;
   flex: 1 0 50%;
 }
 
-article {
+#experience article {
   display: flex;
   width: 10rem;
   justify-content: space-around; 
-  gap: 0.5rem;
+  gap: 0.1rem;
 }
 
 article .icon {
@@ -474,4 +475,53 @@ footer {
 
 footer p {
   text-align: center;
+}
+.work-experience {
+  .jobs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    article {
+      display: flex;
+      gap: 20px;
+      border: rgb(53, 53, 53) 0.1rem solid;
+      border-color: rgb(163, 163, 163);
+      border-radius: 2rem;
+      padding: 10px 10px;
+      figure {
+        width: 30%;
+        flex-shrink: 0;
+        img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+          border-radius: 10px;
+        }
+        figcaption {
+          margin-top: 10px;
+          text-align: center;
+          color: var(--base-100);
+        }
+      }
+      .details {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        h3 {
+          margin-top: 0;
+          margin-bottom: 10px;
+        }
+        div {
+          font-weight: 600;
+          color: var(--base-800);
+          margin-bottom: 5px;
+        }
+        p {
+          margin-top: 10px;
+          width: 100%;
+          text-align: justify;
+        }
+      }
+    }
+  }
 }
